@@ -107,11 +107,11 @@
                     </nav>
                 </div> -->
                 <div class="sb-sidenav-menu-heading">Modulos</div>
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="{{ route('categorias.index') }}">
                     <div class="sb-nav-link-icon">
-                        <i class="fas fa-chart-area"></i>
+                        <i class="fa-solid fa-tag"></i>
                     </div>
-                    Categorias
+                    Categorías
                 </a>
                 <a class="nav-link" href="#">
                     <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
